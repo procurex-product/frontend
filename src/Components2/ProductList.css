@@ -1,0 +1,23 @@
+.product-list {
+    margin-top: 20px;
+  }
+  
+  .product-list h2 {
+    margin-bottom: 10px;
+  }
+  
+  .product-list ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .product-list li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .product-list li button {
+    margin-left: 10px;
+  }
+  

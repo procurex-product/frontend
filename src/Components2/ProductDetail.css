@@ -1,0 +1,63 @@
+/* ProductDetail.css */
+
+/* Style for the container of product details */
+/* ProductDetail.css */
+
+/* Style for the container of product details */
+.product-detail-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Style for the product detail label */
+.product-detail-label {
+  font-weight: bold;
+}
+
+/* Style for the product detail value in non-edit mode */
+.product-detail-value {
+  margin-bottom: 10px;
+}
+
+/* Style for the product detail value in edit mode */
+.product-detail-edit {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+/* Style for the buttons */
+.product-detail-buttons {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+/* Style for the delete button */
+.product-detail-buttons .btn-delete {
+  background-color: #dc3545;
+  border-color: #dc3545;
+}
+
+/* Style for the edit and update buttons */
+.product-detail-buttons .btn-edit,
+.product-detail-buttons .btn-update {
+  background-color: #007bff;
+  border-color: #007bff;
+}
+
+/* Style for the cancel button */
+.product-detail-buttons .btn-cancel {
+  background-color: #6c757d;
+  border-color: #6c757d;
+}
+
+/* Style for the HR elements */
+.product-detail-container hr {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}

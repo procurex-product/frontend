@@ -1,0 +1,53 @@
+/* Add styles specific to the Allotment Listing component here */
+
+.allotment-listing-container {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.allotment-listing-container form {
+  margin-bottom: 20px;
+}
+
+.allotment-listing-container h2 {
+  margin-bottom: 20px;
+}
+
+.allotment-listing-container table {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.allotment-listing-container th,
+.allotment-listing-container td {
+  text-align: center;
+  padding: 10px;
+}
+
+.allotment-listing-container th {
+  background-color: #f2f2f2;
+}
+
+.allotment-listing-container .btn {
+  margin-right: 5px;
+}
+
+.allotment-listing-container .btn-primary {
+  background-color: #007bff;
+  border-color: #007bff;
+}
+
+.allotment-listing-container .btn-primary:hover {
+  background-color: #0056b3;
+  border-color: #0056b3;
+}
+
+.allotment-listing-container .btn-danger {
+  background-color: #dc3545;
+  border-color: #dc3545;
+}
+
+.allotment-listing-container .btn-danger:hover {
+  background-color: #b02a37;
+  border-color: #b02a37;
+}
